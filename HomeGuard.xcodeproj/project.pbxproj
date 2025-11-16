@@ -6,17 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7680A7342EC9990C0021DA81 /* PodsHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A7312EC9990B0021DA81 /* PodsHubView.swift */; };
+		7680A7352EC9990C0021DA81 /* PodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A7302EC9990B0021DA81 /* PodDetailView.swift */; };
+		7680A7362EC9990C0021DA81 /* PodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A7322EC9990B0021DA81 /* PodsModel.swift */; };
+		7680A7372EC9990C0021DA81 /* BudgetResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A7282EC9990B0021DA81 /* BudgetResultView.swift */; };
+		7680A7382EC9990C0021DA81 /* HomeGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A72C2EC9990B0021DA81 /* HomeGuardApp.swift */; };
+		7680A7392EC9990C0021DA81 /* HousingOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A72D2EC9990B0021DA81 /* HousingOptionsView.swift */; };
+		7680A73A2EC9990C0021DA81 /* BudgetStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A7292EC9990B0021DA81 /* BudgetStartView.swift */; };
+		7680A73B2EC9990C0021DA81 /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A72B2EC9990B0021DA81 /* HomeDashboardView.swift */; };
+		7680A73C2EC9990C0021DA81 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A72E2EC9990B0021DA81 /* LoginView.swift */; };
+		7680A73D2EC9990C0021DA81 /* CreatePodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A72A2EC9990B0021DA81 /* CreatePodView.swift */; };
+		7680A73E2EC9990C0021DA81 /* ManualBudgetInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680A72F2EC9990B0021DA81 /* ManualBudgetInputView.swift */; };
+		7680A73F2EC9990C0021DA81 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7680A7332EC9990B0021DA81 /* README.md */; };
+		7680A7402EC9990C0021DA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7680A7272EC9990B0021DA81 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		23ED661F2EB30491005A36D8 /* HomeGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7680A7272EC9990B0021DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7680A7282EC9990B0021DA81 /* BudgetResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetResultView.swift; sourceTree = "<group>"; };
+		7680A7292EC9990B0021DA81 /* BudgetStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetStartView.swift; sourceTree = "<group>"; };
+		7680A72A2EC9990B0021DA81 /* CreatePodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePodView.swift; sourceTree = "<group>"; };
+		7680A72B2EC9990B0021DA81 /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
+		7680A72C2EC9990B0021DA81 /* HomeGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGuardApp.swift; sourceTree = "<group>"; };
+		7680A72D2EC9990B0021DA81 /* HousingOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingOptionsView.swift; sourceTree = "<group>"; };
+		7680A72E2EC9990B0021DA81 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7680A72F2EC9990B0021DA81 /* ManualBudgetInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualBudgetInputView.swift; sourceTree = "<group>"; };
+		7680A7302EC9990B0021DA81 /* PodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDetailView.swift; sourceTree = "<group>"; };
+		7680A7312EC9990B0021DA81 /* PodsHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodsHubView.swift; sourceTree = "<group>"; };
+		7680A7322EC9990B0021DA81 /* PodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodsModel.swift; sourceTree = "<group>"; };
+		7680A7332EC9990B0021DA81 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		23ED66212EB30491005A36D8 /* HomeGuard */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HomeGuard;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		23ED661C2EB30490005A36D8 /* Frameworks */ = {
@@ -32,7 +53,19 @@
 		23ED66162EB30490005A36D8 = {
 			isa = PBXGroup;
 			children = (
-				23ED66212EB30491005A36D8 /* HomeGuard */,
+				7680A7272EC9990B0021DA81 /* Assets.xcassets */,
+				7680A7282EC9990B0021DA81 /* BudgetResultView.swift */,
+				7680A7292EC9990B0021DA81 /* BudgetStartView.swift */,
+				7680A72A2EC9990B0021DA81 /* CreatePodView.swift */,
+				7680A72B2EC9990B0021DA81 /* HomeDashboardView.swift */,
+				7680A72C2EC9990B0021DA81 /* HomeGuardApp.swift */,
+				7680A72D2EC9990B0021DA81 /* HousingOptionsView.swift */,
+				7680A72E2EC9990B0021DA81 /* LoginView.swift */,
+				7680A72F2EC9990B0021DA81 /* ManualBudgetInputView.swift */,
+				7680A7302EC9990B0021DA81 /* PodDetailView.swift */,
+				7680A7312EC9990B0021DA81 /* PodsHubView.swift */,
+				7680A7322EC9990B0021DA81 /* PodsModel.swift */,
+				7680A7332EC9990B0021DA81 /* README.md */,
 				23ED66202EB30491005A36D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,9 +93,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				23ED66212EB30491005A36D8 /* HomeGuard */,
-			);
 			name = HomeGuard;
 			packageProductDependencies = (
 			);
@@ -82,6 +112,7 @@
 				TargetAttributes = {
 					23ED661E2EB30490005A36D8 = {
 						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 1630;
 					};
 				};
 			};
@@ -109,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7680A73F2EC9990C0021DA81 /* README.md in Resources */,
+				7680A7402EC9990C0021DA81 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +152,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7680A7342EC9990C0021DA81 /* PodsHubView.swift in Sources */,
+				7680A7352EC9990C0021DA81 /* PodDetailView.swift in Sources */,
+				7680A7362EC9990C0021DA81 /* PodsModel.swift in Sources */,
+				7680A7372EC9990C0021DA81 /* BudgetResultView.swift in Sources */,
+				7680A7382EC9990C0021DA81 /* HomeGuardApp.swift in Sources */,
+				7680A7392EC9990C0021DA81 /* HousingOptionsView.swift in Sources */,
+				7680A73A2EC9990C0021DA81 /* BudgetStartView.swift in Sources */,
+				7680A73B2EC9990C0021DA81 /* HomeDashboardView.swift in Sources */,
+				7680A73C2EC9990C0021DA81 /* LoginView.swift in Sources */,
+				7680A73D2EC9990C0021DA81 /* CreatePodView.swift in Sources */,
+				7680A73E2EC9990C0021DA81 /* ManualBudgetInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -258,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -269,6 +315,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -280,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -289,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
